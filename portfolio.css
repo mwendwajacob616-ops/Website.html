@@ -1,0 +1,57 @@
+img{
+    float:left;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+a:link{
+  background-color:rgb(166, 235, 131);
+  border-style: groove;
+  border-radius: 11px;
+  text-decoration-color: black;
+   box-shadow: 2px 2px 4px rgb(2, 0, 9);
+}
+a:hover{
+    color:rgb(8, 152, 15);
+}
+button{
+    background-color: azure;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 4px;
+    border-width: 10px;
+    box-shadow: 2px 2px 4px rgb(5, 0, 24);
+}
+button:hover{
+    color:aqua;
+    background-color: red;
+}
+button:active{
+    color:brown;
+}
+iframe{
+    border-color: red;
+    border-width: 3px;
+}
+body{
+    text-align: center;
+    background-color: rgb(108, 159, 200);
+    font-size: larger;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+   text-shadow: 2px 2px 4px rgb(199, 55, 55);
+   box-shadow: 4px 4px 5px rgb(199, 55, 55);
+    margin-top: 40px;
+}
+h2{
+    text-shadow: 2px 2px 4px blue;
+    box-shadow: 3px 3px 4px blue;
+    margin-top: 40px;
+}
+h3{
+    color:blue;
+    text-shadow: 2px 2px 4px rgb(53, 18
+}
+
+
