@@ -1,0 +1,141 @@
+h1{
+border-top-style: groove;
+border-bottom-style: groove;
+border-color:black;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+font-weight: bolder;
+text-shadow: 2px 2px 4px rgb(222, 68, 68);
+box-shadow: 4px 4px 5px black;
+}
+h3{
+  font-style: italic;
+  text-shadow: 2px 2px 5px rgb(53, 18, 232);
+  box-shadow: 4px 4px 5px blue;
+}
+body{
+    background-image: -webkit-image-set();
+    background-color: rgb(166, 166, 117);
+    text-align: center;
+    font-size: medium;
+ }
+ p{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-style: italic;
+ }
+ #box1{
+    border:5px rgb(7, 247, 7);
+    margin-top: 5px;
+    border-style: groove;
+    border-width: thick;
+    border-radius: 5px;
+    background-color: rgb(33, 245, 107);
+    padding: 0px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 2px 2px 6px rgb(223, 50, 50);
+    animation: mySlide, myRotate, myOpacity, myScale, myColorChange;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 10;
+    transformation:capitalize;
+ }
+  #box2{
+    border:rgb(223, 50, 50);
+    margin-top: 10px;
+    border-style: groove;
+    border-width: thick;
+    border-radius: 5px;
+    background-color: rgb(239, 87, 11);
+    padding: 0px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 2px 2px 6px rgb(7, 247, 7)
+
+ }
+
+ @keyframes mySlide{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+ }
+ @keyframes myRotate{
+  100%{transform: rotateX(360deg)}
+  100%{transform: rotateY(360deg)}
+ }
+/*@keyframes myOpacity{
+  50%{opacity:50%}
+}*/
+@keyframes myScale{
+  50%(transform: scale(0.5, 0.5);)
+}
+@keyframes myColorChange{
+  0%{background-color: aqua; border-color: aqua;}
+  20%{background-color: blue; border-color: blue;}
+  50%{background-color: rgb(133, 98, 165);}
+  80%{background-color: #b38585; border-color:brown;}
+  100%{background-color: rgb(33, 245, 107); border-color: rgb(97, 222, 97);}
+}
+  #box3{
+    margin-top: 10px;
+    margin-bottom:10px;
+    border-style: groove;
+    border-width: thick;
+    border-radius: 5px;
+    background-color: rgb(96, 86, 157);
+    padding: 10px;
+    padding-top:5;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ img{
+   float:left;
+   margin-right:10px;
+ }
+
+
+ a:link{
+   color: blue;
+ }
+ a:visited{
+   color:brown;
+ }
+ a:hover{
+   color:red;
+ }
+ a:active{
+   color: yellow;
+ }
+button{
+   border-radius: 10px;
+   border-width: 5px;
+   padding-top: 4px;
+}
+ button:hover{
+   color:#e81111;
+   background-color: rgb(108, 108, 118);
+ }
+ button:active{
+   color: orange;
+ }
+
+ li:nth-child(1){
+   background-color: rgb(122, 187, 183);
+ }
+ li:nth-child(2){
+   background-color: aqua;
+ }
+ li:nth-child(3){
+   background-color: rgb(165, 185, 219);
+ }
+ li:nth-child(4){
+   background-color: rgb(47, 255, 0);
+ }
+ li:nth-child(5){
+   background-color: rgb(185, 144, 175);
+ }
+ li:nth-child(6){
+background-color: rgb(95, 113, 164)
+ }
+ (NOTE; You can also insert he function: Odd,Even,3n,2n etc==--and all the respective values turn as per commanded)
+
