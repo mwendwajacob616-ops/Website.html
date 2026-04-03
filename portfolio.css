@@ -2,13 +2,15 @@ img{
     float:left;
     margin-right: 40px;
     margin-bottom: 20px;
+    border-radius: 5px;
+
 }
 a:link{
   background-color:rgb(166, 235, 131);
   border-style: groove;
+  border-width: 8px;
   border-radius: 11px;
-  text-decoration-color: black;
-   box-shadow: 2px 2px 4px rgb(2, 0, 9);
+  box-shadow: 3px 3px 4px red;
 }
 a:hover{
     color:rgb(8, 152, 15);
@@ -17,8 +19,7 @@ button{
     background-color: azure;
     border-radius: 5px;
     border-color: black;
-    border-width: 4px;
-    border-width: 10px;
+    border-width: 8px;
     box-shadow: 2px 2px 4px rgb(5, 0, 24);
 }
 button:hover{
@@ -30,7 +31,9 @@ button:active{
 }
 iframe{
     border-color: red;
-    border-width: 3px;
+    border-width: 5px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px red;
 }
 body{
     text-align: center;
