@@ -1,12 +1,22 @@
 img{
     float: center;
+    display:block;
+    height: auto;
+    margin: 20px auto;
     margin-right: 40px;
     margin-bottom: 20px;
-    border-radius: 90%;
+    border-radius: 50%;
     box-shadow: 6px 6px 5px rgb(106, 6, 6);
-    border-width: 200%;
+    border-width: 2px;
     animation: spin 10s linear infinite;
 }
+.profile{
+    width:400px;
+    border-radius: 50%;
+    margin:20px auto;
+    display:block;
+}
+
 @keyframes spin{
     from{transform: rotate(0deg);}
     to{transform: rotate(360deg);}
