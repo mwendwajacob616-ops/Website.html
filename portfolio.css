@@ -8,8 +8,8 @@ img{
 a:link{
   background-color:rgb(166, 235, 131);
   border-style: groove;
-  border-width: 8px;
-  border-radius: 11px;
+  border-width: 7px;
+  border-radius: 7px;
   box-shadow: 3px 3px 4px red;
 }
 a:hover{
