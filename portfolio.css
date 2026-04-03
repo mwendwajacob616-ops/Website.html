@@ -5,6 +5,9 @@ img{
     border-radius: 5px;
     box-shadow: 2px 2px 4px rgb(106, 6, 6);
     border-width: 7px;
+    animation-iteration-count: 1;
+    animation-duration: 2;
+    animation: mySlide, myRotate;
 }
 a:link{
   background-color:rgb(166, 235, 131);
@@ -39,9 +42,11 @@ nav a{
     background-color:rgb(166, 235, 131);
     border-style: groove;
     border-color: black;
-    border-width: 1px;
+    border-width: 0px;
     border-radius: 5px;
     box-shadow: 3px 3px 4px red;
+    animation: myScale;
+    animation-duration: 2s;
 }
 iframe{
     border-color: rgb(89, 29, 29);
@@ -70,5 +75,15 @@ h3{
     color:blue;
     text-shadow: 2px 2px 4px rgb(53, 18
 }
-
+@keyframes mySlide{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+ }
+ @keyframes myRotate{
+  100%{transform: rotateX(360deg)}
+  100%{transform: rotateY(360deg)}
+ }
+ @keyframes myScale{
+  50%(transform: scale(0.5, 0.5);)
+}
 
